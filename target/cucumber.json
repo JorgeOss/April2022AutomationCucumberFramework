@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5627939300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ColorsStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "2",
+        "description": "Sky White Background",
+        "id": "user-should-be-able-to-change-dashboard-page-color;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1554849600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ColorsStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 431837100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Set SkyWhite Background button exists",
+            "match": {
+              "location": "ColorsStepDefinition.set_SkyWhite_Background_button_exists()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2194825000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on the button on \"Sky White\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sky White",
+                  "offset": 26
+                }
+              ],
+              "location": "ColorsStepDefinition.i_click_on_the_button_on(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2066225400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the background color will change to sky white",
+            "match": {
+              "location": "ColorsStepDefinition.the_background_color_will_change_to_sky_white()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "User should be able to change dashboard page color",
+    "description": "",
+    "id": "user-should-be-able-to-change-dashboard-page-color",
+    "keyword": "Feature",
+    "uri": "features/SkyBlueBackground.feature"
+  }
+]
